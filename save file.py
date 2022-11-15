@@ -319,3 +319,74 @@
 #         right = current - 1
 #     else:
 #         print('введите коректный ответ  да  больше  меньше')
+
+# class Hero:
+#     head=1
+#     abilyty=True
+#     def __init__(self,name,nickname,hp,damage):
+#         self.name=name
+#         self.nickname=nickname
+#         self.hp=hp
+#         self.damage=damage
+#     def heal(self):
+#         print(self.hp +100)
+#
+#     def two_damage(self):
+#         print(self.damage*2)
+#
+#     def gritting(self):
+#         print(f"my name is {self.name}")
+#
+#     def brand_phrase(self):
+#         print('good will win')
+# h1=Hero('optimus','prime',10000,100)
+# h2=Hero('bakay','bakaevich',1,100)
+# h3=Hero('org','boss',1000000,57647453)
+# h4=Hero('optical','suprime',100990,10078)
+#
+# h1.two_damage()
+# h2.heal()
+# h3.gritting()
+# h4.brand_phrase()
+
+#git add.
+#git commit -m название файла
+# git push
+
+
+
+'git init'
+'добавляет в гит ваш проект'
+''
+'git remote add origin .....'
+'связывает ваш проект с вашим репозиторием'
+''
+'.gitignore:'
+'    .gitignore'
+'    .idea'
+'    __pycache__/'
+'    venv'
+'скрывает ненужные файлы от репозитория'
+''
+''
+'git add .'
+'добавляет изменения'
+''
+'git commit -m '''
+'даёт имя'
+'сохраняет изменения'
+''
+'git push origin master/main'
+'пушит ваш проект в ваш репозиторий'
+''
+''
+'git rm --cached название файла'
+'удоляет файл из репо'
+''
+'git rm --cached -r название папки'
+'удаляет папку из репо'''
+''
+''
+'git clone ссылка репозитория'
+'клонирует проект'
+
